@@ -11,13 +11,13 @@ var tower = {};
 
 tower.gun = {
     // Display
-    color: [249, 191, 59],
+    color: [0, 255, 0],
     length: 0.65,
     radius: 0.9,
     secondary: [149, 165, 166],
     // Misc
     name: 'gun',
-    title: 'Gun Tower',
+    title: 'Matrix Neo',
     // Stats
     cooldownMax: 0,
     cooldownMin: 0,
@@ -30,7 +30,7 @@ tower.gun = {
             color: [249, 105, 14],
             // Misc
             name: 'machineGun',
-            title: 'Machine Gun',
+            title: 'Willard Wyler',
             // Stats
             cooldownMax: 0,
             cooldownMin: 0,
@@ -43,39 +43,39 @@ tower.gun = {
 
 tower.laser = {
     // Display
-    color: [25, 181, 254],
+    color: [255, 255, 230],
     length: 0.55,
     radius: 0.8,
-    secondary: [149, 165, 166],
+    secondary: [255,102,255],
     width: 0.25,
     // Misc
     name: 'laser',
-    title: 'Laser Tower',
+    title: 'Elvira Cum',
     // Stats
-    cooldownMax: 1,
+    cooldownMax: 0,
     cost: 75,
-    damageMax: 3,
-    range: 2,
+    damageMax: 69420,
+    range: 4,
     type: 'energy',
     // Upgrades
     upgrades: [
         {
             // Display
-            color: [78, 205, 196],
+            color: [255,51,221],
             length: 0.65,
             radius: 0.9,
-            secondary: [191, 191, 191],
+            secondary: [255,102,255],
             weight: 3,
             width: 0.35,
             // Misc
             name: 'beamEmitter',
-            title: 'Beam Emitter',
+            title: 'Sussy Pussy',
             // Stats
             cooldownMax: 0,
-            cost: 200,
-            damageMax: 0.1,
-            damageMin: 0.001,
-            range: 3,
+            cost: 6942069420,
+            damageMax: 1000000,
+            damageMin: 100000,
+            range: 1000,
             // Methods
             attack: function(e) {
                 if (this.lastTarget === e) {
@@ -105,14 +105,14 @@ tower.slow = {
     width: 0.3,
     // Misc
     name: 'slow',
-    title: 'Slow Tower',
+    title: 'Cum Shooter',
     // Stats
     cooldownMax: 0,
     cooldownMin: 0,
     cost: 100,
     damageMax: 0,
     damageMin: 0,
-    range: 1,
+    range: 5,
     type: 'slow',
     // Methods
     drawBarrel: function() {
@@ -126,7 +126,7 @@ tower.slow = {
         this.attack(e);
     },
     onHit: function(e) {
-        e.applyEffect('slow', 40);
+        e.applyEffect('slow', 69420);
     },
     // Target correct enemy
     target: function(entities) {
