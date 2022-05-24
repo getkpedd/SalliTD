@@ -21,7 +21,7 @@ enemy.weak = {
     // Misc
     name: 'weak',
     // Stats
-    cash: 1,
+    cash: 69420,
     health: 35
 };
 
