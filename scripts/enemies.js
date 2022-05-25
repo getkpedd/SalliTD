@@ -22,7 +22,7 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 69420,
-    health: 35
+    health: 35000000
 };
 
 enemy.strong = {
@@ -32,8 +32,8 @@ enemy.strong = {
     // Misc
     name: 'strong',
     // Stats
-    cash: 1,
-    health: 75
+    cash: 694206,
+    health: 70000005
 };
 
 enemy.fast = {
@@ -42,8 +42,8 @@ enemy.fast = {
     // Misc
     name: 'fast',
     // Stats
-    cash: 2,
-    health: 75,
+    cash: 6942069,
+    health: 700005,
     speed: 2,
     // Methods
     draw: function() {
@@ -68,8 +68,8 @@ enemy.strongFast = {
     // Misc
     name: 'strongFast',
     // Stats
-    cash: 2,
-    health: 135,
+    cash: 69420694,
+    health: 13000005,
     speed: 2,
     // Methods
     draw: function() {
@@ -95,8 +95,8 @@ enemy.medic = {
     // Misc
     name: 'medic',
     // Stats
-    cash: 4,
-    health: 375,
+    cash: 694206942,
+    health: 370000005,
     immune: ['regen'],
     // Methods
     onTick: function() {
@@ -114,8 +114,8 @@ enemy.stronger = {
     // Misc
     name: 'stronger',
     // Stats
-    cash: 4,
-    health: 375
+    cash: 6942069420,
+    health: 3000075
 };
 
 enemy.faster = {
@@ -124,8 +124,8 @@ enemy.faster = {
     // Misc
     name: 'faster',
     // Stats
-    cash: 4,
-    health: 375,
+    cash: 69420694206,
+    health: 6900004206,
     resistant: ['explosion'],
     speed: 3,
     // Methods
@@ -152,8 +152,8 @@ enemy.tank = {
     // Misc
     name: 'tank',
     // Stats
-    cash: 4,
-    health: 750,
+    cash: 694206942069,
+    health: 750000000,
     immune: ['poison', 'slow'],
     resistant: ['energy', 'physical'],
     weak: ['explosion', 'piercing'],
@@ -187,8 +187,8 @@ enemy.taunt = {
     name: 'taunt',
     sound: 'taunt',
     // Stats
-    cash: 8,
-    health: 1500,
+    cash: 6942069420694,
+    health: 1500000000,
     immune: ['poison', 'slow'],
     resistant: ['energy', 'physical'],
     taunt: true,
@@ -218,8 +218,8 @@ enemy.spawner = {
     // Misc
     name: 'spawner',
     // Stats
-    cash: 10,
-    health: 1150,
+    cash: 69420694206942,
+    health: 6942000000,
     // Methods
     onKilled: function() {
         if (this.alive) {
