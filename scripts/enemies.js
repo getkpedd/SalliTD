@@ -22,7 +22,7 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 69420,
-    health: 35000000
+    health: 35000
 };
 
 enemy.strong = {
@@ -33,7 +33,7 @@ enemy.strong = {
     name: 'strong',
     // Stats
     cash: 694206,
-    health: 70000005
+    health: 70000
 };
 
 enemy.fast = {
@@ -43,7 +43,7 @@ enemy.fast = {
     name: 'fast',
     // Stats
     cash: 6942069,
-    health: 700005,
+    health: 70000,
     speed: 2,
     // Methods
     draw: function() {
@@ -69,7 +69,7 @@ enemy.strongFast = {
     name: 'strongFast',
     // Stats
     cash: 69420694,
-    health: 13000005,
+    health: 130000,
     speed: 2,
     // Methods
     draw: function() {
@@ -96,7 +96,7 @@ enemy.medic = {
     name: 'medic',
     // Stats
     cash: 694206942,
-    health: 370000005,
+    health: 370000,
     immune: ['regen'],
     // Methods
     onTick: function() {
@@ -115,7 +115,7 @@ enemy.stronger = {
     name: 'stronger',
     // Stats
     cash: 6942069420,
-    health: 3000075
+    health: 300007
 };
 
 enemy.faster = {
@@ -125,7 +125,7 @@ enemy.faster = {
     name: 'faster',
     // Stats
     cash: 69420694206,
-    health: 6900004206,
+    health: 690000,
     resistant: ['explosion'],
     speed: 3,
     // Methods
@@ -153,7 +153,7 @@ enemy.tank = {
     name: 'tank',
     // Stats
     cash: 694206942069,
-    health: 750000000,
+    health: 750000,
     immune: ['poison', 'slow'],
     resistant: ['energy', 'physical'],
     weak: ['explosion', 'piercing'],
