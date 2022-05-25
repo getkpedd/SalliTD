@@ -72,7 +72,7 @@ tower.laser = {
             title: 'Sussy Pussy',
             // Stats
             cooldownMax: 0,
-            cost: 6942069420,
+            cost: 6942069,
             damageMax: 1000000,
             damageMin: 100000,
             range: 1000,
