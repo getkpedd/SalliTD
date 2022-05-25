@@ -22,7 +22,7 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 69420,
-    health: 35000
+    health: 350
 };
 
 enemy.strong = {
